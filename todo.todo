@@ -1,0 +1,42 @@
+Prise des chat en photo
+Class des chat a refaire / nom Position age etc
+permettre a l'user de créer des attribut ( type )
+etendre a tout les animaux / creer
+gallerie de photo par animals
+
+pour les bébé qui vont etre donnée ; la possibilité de recuperé les photo du proprio actuel si il utilisel l'app
+
+
+
+
+Scenario
+1 – connexion utilisateur (Possibilité de connexion Android / Facebook /Apple) .
+Liens «si vous n'avez pas de compte »
+
+2 – create account / photo de profil: formulaire / pseudo/nom / prenom / mail / genre / pays / anniversaire / cgi
+
+3 – Guide sur le fonctionnement / demande geolocalisation /   Demande Notification
+
+4 – pop-up verification email
+
+5 – Arrrivé sur l'acceuil
+
+Menu:
+
+Activité: - historique d'ajout/ ajout d'amis / groupe / proche
+
+map si la geolocalisation est activé: Recense les endroits ou il y a eu la rencontre
+
+notification  / demande d'ajout d'amis
+
+Profil: Compteur / sucées etc
+
+6- Ajout d'une rencontre:
+
+Photo de l'animal
+Nom
+ Endroit
+Race
+Type
+
+
