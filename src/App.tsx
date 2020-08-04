@@ -10,20 +10,16 @@ const App: FunctionComponent = () => {
     return (
     <Router>
         <div>
-            {/* NAV */}
             <nav>
                 <div className="nav-wrapper teal">
                     <Link to="/" className="brand-logo center">ChatChatDex</Link>
-
                 </div>
-                {/* Gestuibn des routes */}
+
 
                 <Switch>
                     <Route exact path="/" component={ChatList} />
                     <Route exact path="/Chats" component={ChatList}/>
                     <Route  path="/Chats/:id" component={ChatDetail}/>
-
-
                 </Switch>
 
 

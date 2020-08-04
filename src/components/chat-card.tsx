@@ -19,7 +19,6 @@ const ChatCard: FunctionComponent<Props> = ({chat, borderColor = '#009688'}) => 
         setColor('#F5F5F5');
     }
 
-
     return (
         <div className="col s6 m4" onMouseEnter={showborder} onMouseLeave={hideBorder}>
             <div className="card horizontal" style={{borderColor: color}}>

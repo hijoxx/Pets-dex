@@ -1,7 +1,7 @@
 import React, { FunctionComponent, useState, useEffect } from 'react';
 import { RouteComponentProps, Link } from 'react-router-dom';
 import Chat from '../models/Chat';
-import CHATS from '../models/mock-chat;
+import CHATS from '../models/mock-chat';
 import formatDate from '../helpers/format-date';
 import formatType from '../helpers/format-type';
 
@@ -32,18 +32,10 @@ const ChatsDetail: FunctionComponent<RouteComponentProps<Params>> = ({ match }) 
                             <div className="card-stacked">
                                 <div className="card-content">
                                     <table className="bordered striped">
-                                        <tbody>
+                                        <tbody className="teal">
                                         <tr>
                                             <td>Nom</td>
                                             <td><strong>{ chat.name }</strong></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Points de vie</td>
-                                            <td><strong>{ chat.hp }</strong></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Dégâts</td>
-                                            <td><strong>{ chat.cp }</strong></td>
                                         </tr>
                                         <tr>
                                             <td>Types</td>
